@@ -66,16 +66,17 @@
   height: 40px;
   border-radius: 10px;
   width: 60%;
-  margin: 20px;
+  margin: 15px;
   font-family: century-gothic, sans-serif;
   font-size: 15px;
   padding: 0 15px;
+  margin-right: 0;
 }
 .footerSectionOneLeftInput button {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 5px;
+  margin: 15px;
   height: 40px;
   width: 100px;
   border-radius: 7px;
@@ -108,12 +109,15 @@
   display: flex;
   flex-direction: row;
   margin: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .footerSectionOneRightSocialMediaItems {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 5px;
+  margin: 5px 5px;
   height: 50px;
   width: 50px;
   border-radius: 7px;

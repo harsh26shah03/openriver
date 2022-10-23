@@ -39,11 +39,7 @@ const Prebody = () => {
         itemsToShow={4}
       >
         <NFTCard name={"Harsh"} isVerified={true} price={1} />
-        <NFTCard
-          name={"This is the dark night...."}
-          isVerified={false}
-          price={20}
-        />
+        <NFTCard name={"Dark night...."} isVerified={false} price={20} />
         <NFTCard name={"Modi during Covid"} isVerified={true} price={1000} />
         <NFTCard name={"Ram Mandir"} isVerified={true} price={1000000} />
         <NFTCard name={"Battles"} isVerified={true} price={1000} />

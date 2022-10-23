@@ -32,7 +32,7 @@ const Navbar = () => {
       <nav
         className="navbar"
         style={
-          isMenuOpen || document.documentElement.scrollTop > 0
+          isMenuOpen
             ? { backgroundColor: "#ffffff" }
             : { backgroundColor: "rgba(0,0,0,0)" }
         }
@@ -114,6 +114,7 @@ const Navbar = () => {
             <li
               className="hamburger"
               onClick={() => {
+                document.documentElement.scrollTop = 0;
                 setIsMenuOpen(!isMenuOpen);
                 if (!isMenuOpen) document.body.style.overflow = "hidden";
                 else document.body.style.overflow = "scroll";

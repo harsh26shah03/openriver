@@ -38,6 +38,7 @@
   border-radius: 10px;
   height: 35px;
   display: flex;
+  padding: 0 5px;
 }
 .postbodyheadingbutton:hover {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -46,5 +47,8 @@
 @media (max-width: 400px) {
   .heading {
     font-size: 25px;
+  }
+  .postbodyheadingbutton {
+    font-size: 12px;
   }
 }

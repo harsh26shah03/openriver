@@ -10,7 +10,7 @@ import heaven from "./heaven.jpg";
 
 const NFTs = {
   Harsh: harsh,
-  "This is the dark night....": darknight,
+  "Dark night....": darknight,
   "Modi during Covid": modi,
   "Ram Mandir": rammandir,
   Battles: war,
