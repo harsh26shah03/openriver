@@ -1,0 +1,29 @@
+.footerSectionTwoRightList {
+  margin: 15px 40px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.footerSectionTwoRightListHeading {
+  text-align: center;
+}
+.footerSectionTwoRightList ul {
+  list-style: none;
+  padding: 0;
+}
+.footerSectionTwoRightList ul li {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  .footerSectionTwoRightList {
+    margin: 15px 25px;
+  }
+}
+@media (max-width: 500px) {
+  .footerSectionTwoRightList {
+    margin: 15px 15px;
+  }
+}

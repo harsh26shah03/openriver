@@ -1,0 +1,38 @@
+.categories {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(56, 56, 56);
+  height: 4rem;
+}
+.categories:hover {
+  color: rgb(102, 102, 102);
+  cursor: pointer;
+}
+.leftGroup {
+  display: flex;
+  align-items: center;
+}
+.leftGroup > div {
+  font-weight: 900;
+  font-size: 30px;
+  margin: 10px;
+}
+.leftGroup img {
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  margin-top: 15px;
+  margin-right: 0;
+}
+.leftGroup > span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  margin: 10px;
+}
+.arrow {
+  font-weight: 900;
+  font-size: 25px;
+  margin: auto 10px;
+}

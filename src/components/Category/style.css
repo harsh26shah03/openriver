@@ -1,0 +1,30 @@
+.Categorywrapper {
+  display: flex;
+  width: 100%;
+  /* height: 25rem; */
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  /* position: absolute;
+  top: 84rem;
+  margin-bottom: 20px; */
+}
+.Categoryheading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  height: fit-content;
+  width: 100%;
+  align-self: left;
+  margin: 20px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 400px) {
+  .heading {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,211 @@
+.footerWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background-color: rgb(24, 104, 183);
+}
+.footerWrapper > * {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+}
+.footerSectionOne,
+.footerSectionTwo,
+.footerSectionThree {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px 70px;
+  padding: 10px 70px;
+  align-items: center;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+.footerSectionTwoRightLists {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+.footerSectionTwoRightList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footerSectionOneLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footerSectionOneLeft > span {
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+.footerSectionOneLeft > p {
+  font-weight: 500;
+  font-size: 17px;
+  word-wrap: break-word;
+  margin: 15px 60px;
+  text-align: center;
+  line-height: 25px;
+}
+.footerSectionOneLeftInput {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.footerSectionOneLeftInput input {
+  border: 2px solid rgb(102, 102, 102);
+  height: 40px;
+  border-radius: 10px;
+  width: 60%;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding: 0 15px;
+}
+.footerSectionOneLeftInput button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 100px;
+  border-radius: 7px;
+  background-color: rgb(32, 129, 226);
+  transition: all 0.2s ease-in;
+  color: #ffffff;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+}
+.footerSectionOneLeftInput button:hover {
+  background-color: rgb(44, 147, 250);
+  cursor: pointer;
+}
+.footerSectionOneRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 20px;
+}
+.footerSectionOneRight > span {
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 20px;
+  margin: 15px;
+}
+.footerSectionOneRightSocialMedia {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.footerSectionOneRightSocialMediaItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+  height: 50px;
+  width: 50px;
+  border-radius: 7px;
+  background-color: rgb(32, 129, 226);
+  transition: all 0.2s ease-in;
+}
+.footerSectionOneRightSocialMediaItems:hover {
+  background-color: rgb(44, 147, 250);
+  cursor: pointer;
+}
+.footerSectionOneRightSocialMediaItems svg {
+  width: 23px;
+  height: 23px;
+}
+.footerSectionTwoLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footerSectionTwoLeftIcon {
+  color: rgb(24, 104, 183);
+}
+.footerSectionTwoLeftIcon > * {
+  font-size: 25px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  padding: 10px;
+}
+.footerSectionTwoLeft > span {
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+.footerSectionTwoLeft > p {
+  font-weight: 500;
+  font-size: 17px;
+  word-wrap: break-word;
+  margin: 20px;
+  text-align: center;
+  line-height: 25px;
+}
+.footerSectionTwoRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.footerSectionThree {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerSectionThreeLeft {
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 10px;
+  margin: 10px 20px;
+}
+.footerSectionThreeRight {
+  margin: 10px 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+.footerSpacing {
+  width: 100px;
+}
+.horizontalRule {
+  height: 0.5px;
+  width: 80%;
+  background-color: #ffffff;
+  opacity: 0.6;
+}
+@media (max-width: 600px) {
+  .footerSectionThree {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (max-width: 1000px) {
+  .footerSectionOne,
+  .footerSectionTwo,
+  .footerSectionThree,
+  .footerSectionTwoRightLists {
+    flex-wrap: wrap;
+  }
+  .footerSectionTwoLeft {
+    justify-content: center;
+  }
+}

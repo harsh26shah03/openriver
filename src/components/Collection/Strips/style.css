@@ -1,0 +1,31 @@
+.stripWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.stripContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+.stripIndex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+}
+.stripImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+.stripVolume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}

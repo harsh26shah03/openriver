@@ -1,0 +1,51 @@
+.postbodywrapper {
+  display: flex;
+  width: 100%;
+  /* height: 25rem; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* position: absolute;
+  top: 84rem;
+  margin-bottom: 20px; */
+}
+.postbodyheading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  height: fit-content;
+  width: 100%;
+  align-self: left;
+  margin: 20px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.postbodysubheading {
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: 5px;
+}
+.postbodyheadingbutton {
+  margin-right: 4rem;
+  font-weight: 600;
+  font-size: 15px;
+  border: 2px solid rgb(112, 112, 112);
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  border-radius: 10px;
+  height: 35px;
+  display: flex;
+  transition: all 0.1s ease-in;
+}
+.postbodyheadingbutton:hover {
+  box-shadow: 2px 2px 2px 2px #c1c1c1;
+  cursor: pointer;
+}
+@media (max-width: 400px) {
+  .heading {
+    font-size: 25px;
+  }
+}

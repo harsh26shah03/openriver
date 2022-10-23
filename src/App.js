@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Category from "./components/Category";
+import Collection from "./components/Collection";
+import Footer from "./components/Footer";
+import Latermidbody from "./components/Latermidbody";
+import Midbody from "./components/Midbody";
+import Navbar from "./components/Navbar";
+import Postbody from "./components/Postbody";
+import Prebody from "./components/Prebody";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App">
+        <Navbar />
+        <Prebody />
+        <div className="spacing"></div>
+        <Collection />
+        <div className="spacing"></div>
+        <Midbody />
+        <div className="spacing"></div>
+        <Latermidbody />
+        <div className="spacing"></div>
+        <Postbody />
+        <div className="spacing"></div>
+        <Category />
+        <div className="spacing"></div>
+        <Footer />
+      </div>
+    </>
   );
 }
 
