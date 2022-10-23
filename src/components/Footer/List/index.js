@@ -6,8 +6,8 @@ const List = ({ heading, items }) => {
     <div className="footerSectionTwoRightList">
       <div className="footerSectionTwoRightListHeading">{heading}</div>
       <ul>
-        {items.map((x) => (
-          <li>{x}</li>
+        {items.map((listItems, index) => (
+          <li key={index}>{listItems}</li>
         ))}
       </ul>
     </div>

@@ -12,7 +12,7 @@ const Latermidbody = () => {
       <div className="latermidbodyheading">Dreamners Spotlight</div>
       <Carousel
         ref={carouselRef}
-        enableAutoPlay={false}
+        enableAutoPlay={true}
         autoPlaySpeed={15000}
         pagination={false}
         disableArrowsOnEnd={false}

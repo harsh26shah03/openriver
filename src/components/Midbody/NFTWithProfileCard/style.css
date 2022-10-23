@@ -6,6 +6,7 @@
   overflow: hidden;
   background-color: rgb(70, 70, 70);
   position: relative;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .midbodycardWrapper:hover .midbodybackground {
   transform: scale(1.2);
@@ -33,7 +34,7 @@
   height: 13px;
 }
 .midbodyname {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: century-gothic, sans-serif;
   color: rgb(70, 70, 70);
   margin: 15px;
   margin-right: 15px;

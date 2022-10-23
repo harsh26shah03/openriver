@@ -21,6 +21,7 @@ const Navbar = () => {
 
   window.addEventListener("scroll", (event) => {
     document.querySelector(".navbar").style.backgroundColor = "#ffffff";
+    setIsMenuOpen(false);
     if (document.documentElement.scrollTop === 0) {
       document.querySelector(".navbar").style.backgroundColor = "rgba(0,0,0,0)";
     }

@@ -20,7 +20,7 @@ const Postbody = () => {
       </div>
       <Carousel
         ref={carouselRef}
-        enableAutoPlay={false}
+        enableAutoPlay={true}
         autoPlaySpeed={15000}
         pagination={false}
         disableArrowsOnEnd={false}

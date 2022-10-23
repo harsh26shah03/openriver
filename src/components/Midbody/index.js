@@ -12,7 +12,7 @@ const Midbody = () => {
       <div className="midbodyheading">New and Notable</div>
       <Carousel
         ref={carouselRef}
-        enableAutoPlay={false}
+        enableAutoPlay={true}
         autoPlaySpeed={15000}
         pagination={false}
         disableArrowsOnEnd={false}

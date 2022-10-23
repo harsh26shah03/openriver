@@ -10,7 +10,7 @@
   margin-bottom: 20px; */
 }
 .postbodyheading {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: century-gothic, sans-serif;
   font-weight: 700;
   font-size: 30px;
   height: fit-content;
@@ -38,10 +38,9 @@
   border-radius: 10px;
   height: 35px;
   display: flex;
-  transition: all 0.1s ease-in;
 }
 .postbodyheadingbutton:hover {
-  box-shadow: 2px 2px 2px 2px #c1c1c1;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   cursor: pointer;
 }
 @media (max-width: 400px) {

@@ -9,7 +9,7 @@ const Prebody = () => {
   let resetTimeout;
   return (
     <div className="prebodywrapper">
-      <div className="heading">Explore, Collect and Sell Indian NFTs</div>
+      <h1 className="heading">Explore, Collect and Sell Indian NFTs</h1>
       <Carousel
         ref={carouselRef}
         enableAutoPlay={true}
