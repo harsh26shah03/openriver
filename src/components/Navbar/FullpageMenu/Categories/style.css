@@ -4,6 +4,7 @@
   justify-content: space-between;
   color: rgb(56, 56, 56);
   height: 4rem;
+  margin: 15px;
 }
 .categories:hover {
   color: rgb(102, 102, 102);

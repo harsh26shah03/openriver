@@ -12,6 +12,7 @@ const Stats = () => {
           width: "100%",
           display: "flex",
           justifyContent: "center",
+          alignSelf: "flex-end",
         }}
       >
         <Socialmedia />

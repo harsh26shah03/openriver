@@ -1,6 +1,6 @@
 .cardWrapper {
-  height: 300px;
-  width: 300px;
+  height: 500px;
+  width: 500px;
   margin: 10px;
   border-radius: 10px;
   overflow: hidden;
@@ -48,22 +48,141 @@
   font-size: 12px;
   letter-spacing: 0px;
 }
-
-@media (max-width: 1000px) {
+@media (max-width: 2000px) {
+  .cardWrapper {
+    height: 450px;
+    width: 450px;
+  }
+}
+@media (max-width: 1800px) {
+  .cardWrapper {
+    height: 425px;
+    width: 425px;
+  }
+}
+@media (max-width: 1700px) {
+  .cardWrapper {
+    height: 400px;
+    width: 400px;
+  }
+}
+@media (max-width: 1600px) {
+  .cardWrapper {
+    height: 375px;
+    width: 375px;
+  }
+}
+@media (max-width: 1500px) {
+  .cardWrapper {
+    height: 350px;
+    width: 350px;
+  }
+}
+@media (max-width: 1400px) {
+  .cardWrapper {
+    height: 325px;
+    width: 325px;
+  }
+}
+@media (max-width: 1300px) {
   .cardWrapper {
     height: 300px;
     width: 300px;
   }
 }
-@media (max-width: 750px) {
+@media (max-width: 1200px) {
   .cardWrapper {
-    height: 300px;
-    width: 300px;
+    height: 275px;
+    width: 275px;
   }
 }
-@media (max-width: 435px) {
+@media (max-width: 1100px) {
   .cardWrapper {
     height: 250px;
     width: 250px;
+  }
+}
+@media (max-width: 1019px) {
+  .cardWrapper {
+    height: 325px;
+    width: 325px;
+  }
+}
+@media (max-width: 975px) {
+  .cardWrapper {
+    height: 310px;
+    width: 310px;
+  }
+}
+@media (max-width: 925px) {
+  .cardWrapper {
+    height: 300px;
+    width: 300px;
+  }
+}
+@media (max-width: 875px) {
+  .cardWrapper {
+    height: 275px;
+    width: 275px;
+  }
+}
+@media (max-width: 850px) {
+  .cardWrapper {
+    height: 260px;
+    width: 260px;
+  }
+}
+@media (max-width: 800px) {
+  .cardWrapper {
+    height: 250px;
+    width: 250px;
+  }
+}
+@media (max-width: 769px) {
+  .cardWrapper {
+    height: 350px;
+    width: 350px;
+  }
+}
+@media (max-width: 700px) {
+  .cardWrapper {
+    height: 325px;
+    width: 325px;
+  }
+}
+@media (max-width: 650px) {
+  .cardWrapper {
+    height: 300px;
+    width: 300px;
+  }
+}
+@media (max-width: 600px) {
+  .cardWrapper {
+    height: 275px;
+    width: 275px;
+  }
+}
+@media (max-width: 550px) {
+  .cardWrapper {
+    height: 250px;
+    width: 250px;
+  }
+}
+@media (max-width: 519px) {
+  .cardWrapper {
+    height: 400px;
+    width: 400px;
+  }
+}
+@media (max-width: 450px) {
+  .cardWrapper {
+    height: 375px;
+    width: 375px;
+  }
+}
+@media (max-width: 400px) {
+  .cardWrapper {
+    height: 350px;
+    width: 350px;
   }
 }

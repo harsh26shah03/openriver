@@ -1,7 +1,7 @@
 .socialmedia {
   bottom: 0;
-  margin-bottom: 4rem;
-  margin-top: 15px;
+  /* margin-bottom: 4rem; */
+  margin: 15px 0px;
   width: 100%;
   align-self: center;
 }

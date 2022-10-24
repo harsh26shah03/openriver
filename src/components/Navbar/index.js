@@ -18,12 +18,20 @@ import Resources from "./FullpageMenu/Categories/Subcategory/resources";
 const Navbar = () => {
   const [input, setInput] = useState("");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  console.log(isMenuOpen);
+
+  if (isMenuOpen) document.querySelector("#root").style.overflow = "hidden";
 
   window.addEventListener("scroll", (event) => {
-    document.querySelector(".navbar").style.backgroundColor = "#ffffff";
-    setIsMenuOpen(false);
-    if (document.documentElement.scrollTop === 0) {
-      document.querySelector(".navbar").style.backgroundColor = "rgba(0,0,0,0)";
+    if (isMenuOpen === true) {
+      setIsMenuOpen(false);
+    } else {
+      document.querySelector(".navbar").style.backgroundColor = "#ffffff";
+
+      if (document.documentElement.scrollTop === 0) {
+        document.querySelector(".navbar").style.backgroundColor =
+          "rgba(0,0,0,0)";
+      }
     }
   });
 
@@ -114,10 +122,8 @@ const Navbar = () => {
             <li
               className="hamburger"
               onClick={() => {
-                document.documentElement.scrollTop = 0;
                 setIsMenuOpen(!isMenuOpen);
-                if (!isMenuOpen) document.body.style.overflow = "hidden";
-                else document.body.style.overflow = "scroll";
+                document.documentElement.scrollTop = 0;
               }}
             >
               <a src="">{!isMenuOpen ? <TbMenu2 /> : <VscClose />}</a>
