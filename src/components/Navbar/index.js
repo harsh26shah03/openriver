@@ -18,7 +18,6 @@ import Resources from "./FullpageMenu/Categories/Subcategory/resources";
 const Navbar = () => {
   const [input, setInput] = useState("");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  console.log(isMenuOpen);
 
   if (isMenuOpen) {
     document.documentElement.style.overflow = "hidden";
