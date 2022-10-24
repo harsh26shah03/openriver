@@ -37,3 +37,8 @@
   font-size: 25px;
   margin: auto 10px;
 }
+@media (max-height: 667px) {
+  .categories {
+    height: 3rem;
+  }
+}

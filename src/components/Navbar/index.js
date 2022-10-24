@@ -20,7 +20,11 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   console.log(isMenuOpen);
 
-  if (isMenuOpen) document.querySelector("#root").style.overflow = "hidden";
+  if (isMenuOpen) {
+    document.documentElement.style.overflow = "hidden";
+    if (document.querySelector(".fullPageMenu"))
+      document.querySelector(".fullPageMenu").style.overflow = "scroll";
+  } else document.documentElement.style.overflow = "scroll";
 
   window.addEventListener("scroll", (event) => {
     if (isMenuOpen === true) {
