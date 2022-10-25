@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./style.css";
 import {
   MdOutlineShoppingCart,
@@ -30,10 +30,13 @@ const Navbar = () => {
       setIsMenuOpen(false);
     } else {
       document.querySelector(".navbar").style.backgroundColor = "#ffffff";
+      document.querySelector(".navbar").style.borderBottom =
+        "1px solid rgba(70, 70, 70, 0.1)";
 
       if (document.documentElement.scrollTop === 0) {
         document.querySelector(".navbar").style.backgroundColor =
           "rgba(0,0,0,0)";
+        document.querySelector(".navbar").style.borderBottom = "none";
       }
     }
   });

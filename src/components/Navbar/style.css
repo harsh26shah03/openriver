@@ -9,10 +9,11 @@
   height: 4rem;
   grid-template-columns: 1fr 5fr 2fr 1fr;
   z-index: 100;
-  background-color: rgb(253, 243, 243);
+  background-color: rgb(255, 255, 255);
   position: fixed;
   top: 0;
   left: 0;
+  /* border-bottom: 1px solid rgba(70, 70, 70, 0.1); */
 }
 .logo {
   display: flex;
